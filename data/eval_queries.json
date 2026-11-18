@@ -1,0 +1,223 @@
+[
+  {
+    "id": "Q01",
+    "type": "exact",
+    "query": "Which function uses PCG64 as its default BitGenerator?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.random.default_rng",
+        "anchor": "default BitGenerator (PCG64)"
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "type": "exact",
+    "query": "What does full_matrices control in svd?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.linalg.svd",
+        "anchor": "full_matrices : bool"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "type": "exact",
+    "query": "What is the role of ddof in numpy.std?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.std",
+        "anchor": "ddof : {int, float}"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "type": "exact",
+    "query": "What does allow_pickle do in numpy.load?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.load",
+        "anchor": "allow_pickle : bool"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "type": "exact",
+    "query": "What is the equal_nan option in numpy.unique?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.unique",
+        "anchor": "equal_nan : bool"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "type": "exact",
+    "query": "What do rtol and atol mean in numpy.isclose?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.isclose",
+        "anchor": "relative difference (`rtol` * abs(`b`))"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "type": "exact",
+    "query": "What does optimize control in einsum?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.einsum",
+        "anchor": "optimize : {False, True, 'greedy', 'optimal'}"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "type": "exact",
+    "query": "What does the side parameter control in searchsorted?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.searchsorted",
+        "anchor": "side : {'left', 'right'}"
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "type": "conceptual",
+    "query": "How can I change the dimensions of a tensor without modifying the underlying values?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.reshape",
+        "anchor": "Gives a new shape to an array without changing its data."
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "type": "conceptual",
+    "query": "I want to join several tensors by creating an additional dimension.",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.stack",
+        "anchor": "Join a sequence of arrays along a new axis."
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "type": "conceptual",
+    "query": "How can I find the positions of all entries that are not zero?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.nonzero",
+        "anchor": "Return the indices of the elements that are non-zero."
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "type": "conceptual",
+    "query": "How can I obtain an ordering permutation without rearranging the actual data?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.argsort",
+        "anchor": "Returns the indices that would sort an array."
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "type": "conceptual",
+    "query": "I need to clamp outliers to an upper and lower bound.",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.clip",
+        "anchor": "values outside the interval are clipped"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "type": "conceptual",
+    "query": "How do I sample uniformly spaced points between two endpoints?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.linspace",
+        "anchor": "Return evenly spaced numbers over a specified interval."
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "type": "conceptual",
+    "query": "How do I access only a small portion of an enormous file instead of using all my RAM?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.memmap",
+        "anchor": "accessing small segments of large files"
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "type": "conceptual",
+    "query": "Which operation finds unknown variables from simultaneous equations?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.linalg.solve",
+        "anchor": "Solve a linear matrix equation"
+      }
+    ]
+  },
+  {
+    "id": "Q17",
+    "type": "conceptual",
+    "query": "How can I compare numerical results when tiny rounding discrepancies are acceptable?",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.isclose",
+        "anchor": "two arrays are element-wise equal within a"
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "type": "conceptual",
+    "query": "I need the central arithmetic average and a measure of how dispersed observations are.",
+    "targets": [
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.mean",
+        "anchor": "Compute the arithmetic mean"
+      },
+      {
+        "source": "api_spec_sample.md",
+        "section": "numpy.std",
+        "anchor": "Compute the standard deviation"
+      }
+    ]
+  }
+]

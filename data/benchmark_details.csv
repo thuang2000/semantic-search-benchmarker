@@ -1,0 +1,217 @@
+Query ID,Query,Type,Configuration,K,Latency (ms),First relevant rank,Top result,Hit Rate,Recall,MRR
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,BM25 baseline,3,0.1502919476479292,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,BM25 baseline,5,0.1502919476479292,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,BM25 baseline,10,0.1502919476479292,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 256,3,557.3427090421319,2.0,api_spec_sample.md:fixed-256-32:78765-79594,1.0,1.0,0.5
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 256,5,557.3427090421319,2.0,api_spec_sample.md:fixed-256-32:78765-79594,1.0,1.0,0.5
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 256,10,557.3427090421319,2.0,api_spec_sample.md:fixed-256-32:78765-79594,1.0,1.0,0.5
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 1024,3,551.4120839070529,1.0,api_spec_sample.md:fixed-1024-32:75409-78765,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 1024,5,551.4120839070529,1.0,api_spec_sample.md:fixed-1024-32:75409-78765,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense 1024,10,551.4120839070529,1.0,api_spec_sample.md:fixed-1024-32:75409-78765,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense structural,3,551.16420914419,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense structural,5,551.16420914419,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q01,Which function uses PCG64 as its default BitGenerator?,exact,Dense structural,10,551.16420914419,1.0,api_spec_sample.md:structural:77467-80019,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,BM25 baseline,3,0.1328340731561184,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,BM25 baseline,5,0.1328340731561184,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,BM25 baseline,10,0.1328340731561184,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 256,3,611.0153328627348,1.0,api_spec_sample.md:fixed-256-32:72771-73583,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 256,5,611.0153328627348,1.0,api_spec_sample.md:fixed-256-32:72771-73583,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 256,10,611.0153328627348,1.0,api_spec_sample.md:fixed-256-32:72771-73583,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 1024,3,610.675249947235,1.0,api_spec_sample.md:fixed-1024-32:72107-75543,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 1024,5,610.675249947235,1.0,api_spec_sample.md:fixed-1024-32:72107-75543,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense 1024,10,610.675249947235,1.0,api_spec_sample.md:fixed-1024-32:72107-75543,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense structural,3,610.6359160039574,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense structural,5,610.6359160039574,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q02,What does full_matrices control in svd?,exact,Dense structural,10,610.6359160039574,1.0,api_spec_sample.md:structural:72696-77467,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,BM25 baseline,3,0.28891582041978836,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,BM25 baseline,5,0.28891582041978836,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,BM25 baseline,10,0.28891582041978836,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,Dense 256,3,266.81804098188877,,api_spec_sample.md:fixed-256-32:46888-47755,0.0,0.0,0.0
+Q03,What is the role of ddof in numpy.std?,exact,Dense 256,5,266.81804098188877,4.0,api_spec_sample.md:fixed-256-32:46888-47755,1.0,1.0,0.25
+Q03,What is the role of ddof in numpy.std?,exact,Dense 256,10,266.81804098188877,4.0,api_spec_sample.md:fixed-256-32:46888-47755,1.0,1.0,0.25
+Q03,What is the role of ddof in numpy.std?,exact,Dense 1024,3,266.5064998436719,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q03,What is the role of ddof in numpy.std?,exact,Dense 1024,5,266.5064998436719,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q03,What is the role of ddof in numpy.std?,exact,Dense 1024,10,266.5064998436719,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q03,What is the role of ddof in numpy.std?,exact,Dense structural,3,266.49033394642174,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,Dense structural,5,266.49033394642174,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q03,What is the role of ddof in numpy.std?,exact,Dense structural,10,266.49033394642174,1.0,api_spec_sample.md:structural:42500-48616,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,BM25 baseline,3,0.21883309818804264,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,BM25 baseline,5,0.21883309818804264,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,BM25 baseline,10,0.21883309818804264,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 256,3,173.33004204556346,1.0,api_spec_sample.md:fixed-256-32:81128-82234,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 256,5,173.33004204556346,1.0,api_spec_sample.md:fixed-256-32:81128-82234,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 256,10,173.33004204556346,1.0,api_spec_sample.md:fixed-256-32:81128-82234,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 1024,3,173.03370800800622,,api_spec_sample.md:fixed-1024-32:82358-86480,0.0,0.0,0.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 1024,5,173.03370800800622,4.0,api_spec_sample.md:fixed-1024-32:82358-86480,1.0,1.0,0.25
+Q04,What does allow_pickle do in numpy.load?,exact,Dense 1024,10,173.03370800800622,4.0,api_spec_sample.md:fixed-1024-32:82358-86480,1.0,1.0,0.25
+Q04,What does allow_pickle do in numpy.load?,exact,Dense structural,3,173.011708073318,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense structural,5,173.011708073318,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q04,What does allow_pickle do in numpy.load?,exact,Dense structural,10,173.011708073318,1.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,BM25 baseline,3,0.2602080348879099,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,BM25 baseline,5,0.2602080348879099,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,BM25 baseline,10,0.2602080348879099,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 256,3,272.20841706730425,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 256,5,272.20841706730425,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 256,10,272.20841706730425,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 1024,3,271.923084044829,1.0,api_spec_sample.md:fixed-1024-32:27955-31812,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 1024,5,271.923084044829,1.0,api_spec_sample.md:fixed-1024-32:27955-31812,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense 1024,10,271.923084044829,1.0,api_spec_sample.md:fixed-1024-32:27955-31812,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense structural,3,271.8957078177482,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense structural,5,271.8957078177482,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q05,What is the equal_nan option in numpy.unique?,exact,Dense structural,10,271.8957078177482,1.0,api_spec_sample.md:structural:29447-34512,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,BM25 baseline,3,0.23649982176721096,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,BM25 baseline,5,0.23649982176721096,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,BM25 baseline,10,0.23649982176721096,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 256,3,223.47550000995398,2.0,api_spec_sample.md:fixed-256-32:69325-70212,1.0,1.0,0.5
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 256,5,223.47550000995398,2.0,api_spec_sample.md:fixed-256-32:69325-70212,1.0,1.0,0.5
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 256,10,223.47550000995398,2.0,api_spec_sample.md:fixed-256-32:69325-70212,1.0,1.0,0.5
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 1024,3,223.13704108819366,1.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 1024,5,223.13704108819366,1.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense 1024,10,223.13704108819366,1.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense structural,3,223.12433389015496,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense structural,5,223.12433389015496,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q06,What do rtol and atol mean in numpy.isclose?,exact,Dense structural,10,223.12433389015496,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,BM25 baseline,3,0.21966686472296715,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,BM25 baseline,5,0.21966686472296715,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,BM25 baseline,10,0.21966686472296715,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense 256,3,202.10795802995563,3.0,api_spec_sample.md:fixed-256-32:56117-57112,1.0,1.0,0.3333333333333333
+Q07,What does optimize control in einsum?,exact,Dense 256,5,202.10795802995563,3.0,api_spec_sample.md:fixed-256-32:56117-57112,1.0,1.0,0.3333333333333333
+Q07,What does optimize control in einsum?,exact,Dense 256,10,202.10795802995563,3.0,api_spec_sample.md:fixed-256-32:56117-57112,1.0,1.0,0.3333333333333333
+Q07,What does optimize control in einsum?,exact,Dense 1024,3,201.77562511526048,1.0,api_spec_sample.md:fixed-1024-32:49135-53385,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense 1024,5,201.77562511526048,1.0,api_spec_sample.md:fixed-1024-32:49135-53385,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense 1024,10,201.77562511526048,1.0,api_spec_sample.md:fixed-1024-32:49135-53385,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense structural,3,201.76195818930864,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense structural,5,201.76195818930864,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q07,What does optimize control in einsum?,exact,Dense structural,10,201.76195818930864,1.0,api_spec_sample.md:structural:48616-61252,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,BM25 baseline,3,0.25754119269549847,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,BM25 baseline,5,0.25754119269549847,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,BM25 baseline,10,0.25754119269549847,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,Dense 256,3,598.4518749173731,3.0,api_spec_sample.md:fixed-256-32:35589-36501,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense 256,5,598.4518749173731,3.0,api_spec_sample.md:fixed-256-32:35589-36501,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense 256,10,598.4518749173731,3.0,api_spec_sample.md:fixed-256-32:35589-36501,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense 1024,3,598.1213338673115,3.0,api_spec_sample.md:fixed-1024-32:31672-35090,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense 1024,5,598.1213338673115,3.0,api_spec_sample.md:fixed-1024-32:31672-35090,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense 1024,10,598.1213338673115,3.0,api_spec_sample.md:fixed-1024-32:31672-35090,1.0,1.0,0.3333333333333333
+Q08,What does the side parameter control in searchsorted?,exact,Dense structural,3,598.1040420010686,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,Dense structural,5,598.1040420010686,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q08,What does the side parameter control in searchsorted?,exact,Dense structural,10,598.1040420010686,1.0,api_spec_sample.md:structural:34512-36917,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,BM25 baseline,3,0.3814580850303173,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,BM25 baseline,5,0.3814580850303173,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,BM25 baseline,10,0.3814580850303173,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 256,3,178.70950023643672,,api_spec_sample.md:fixed-256-32:4887-5483,0.0,0.0,0.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 256,5,178.70950023643672,,api_spec_sample.md:fixed-256-32:4887-5483,0.0,0.0,0.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 256,10,178.70950023643672,,api_spec_sample.md:fixed-256-32:4887-5483,0.0,0.0,0.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 1024,3,178.3654591999948,2.0,api_spec_sample.md:fixed-1024-32:56955-59248,1.0,1.0,0.5
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 1024,5,178.3654591999948,2.0,api_spec_sample.md:fixed-1024-32:56955-59248,1.0,1.0,0.5
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense 1024,10,178.3654591999948,2.0,api_spec_sample.md:fixed-1024-32:56955-59248,1.0,1.0,0.5
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense structural,3,178.36654209531844,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense structural,5,178.36654209531844,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q09,How can I change the dimensions of a tensor without modifying the underlying values?,conceptual,Dense structural,10,178.36654209531844,1.0,api_spec_sample.md:structural:180-3376,1.0,1.0,1.0
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,BM25 baseline,3,0.32691704109311104,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,BM25 baseline,5,0.32691704109311104,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,BM25 baseline,10,0.32691704109311104,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 256,3,268.9220830798149,,api_spec_sample.md:fixed-256-32:57037-57610,0.0,0.0,0.0
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 256,5,268.9220830798149,,api_spec_sample.md:fixed-256-32:57037-57610,0.0,0.0,0.0
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 256,10,268.9220830798149,10.0,api_spec_sample.md:fixed-256-32:57037-57610,1.0,1.0,0.1
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 1024,3,268.59533321112394,,api_spec_sample.md:fixed-1024-32:56955-59248,0.0,0.0,0.0
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 1024,5,268.59533321112394,,api_spec_sample.md:fixed-1024-32:56955-59248,0.0,0.0,0.0
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense 1024,10,268.59533321112394,9.0,api_spec_sample.md:fixed-1024-32:56955-59248,1.0,1.0,0.1111111111111111
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense structural,3,268.5811249539256,2.0,api_spec_sample.md:structural:6347-9496,1.0,1.0,0.5
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense structural,5,268.5811249539256,2.0,api_spec_sample.md:structural:6347-9496,1.0,1.0,0.5
+Q10,I want to join several tensors by creating an additional dimension.,conceptual,Dense structural,10,268.5811249539256,2.0,api_spec_sample.md:structural:6347-9496,1.0,1.0,0.5
+Q11,How can I find the positions of all entries that are not zero?,conceptual,BM25 baseline,3,0.376374926418066,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q11,How can I find the positions of all entries that are not zero?,conceptual,BM25 baseline,5,0.376374926418066,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q11,How can I find the positions of all entries that are not zero?,conceptual,BM25 baseline,10,0.376374926418066,2.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.5
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 256,3,296.9244169071317,3.0,api_spec_sample.md:fixed-256-32:16617-17244,1.0,1.0,0.3333333333333333
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 256,5,296.9244169071317,3.0,api_spec_sample.md:fixed-256-32:16617-17244,1.0,1.0,0.3333333333333333
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 256,10,296.9244169071317,3.0,api_spec_sample.md:fixed-256-32:16617-17244,1.0,1.0,0.3333333333333333
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 1024,3,296.5860010590404,1.0,api_spec_sample.md:fixed-1024-32:14327-17325,1.0,1.0,1.0
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 1024,5,296.5860010590404,1.0,api_spec_sample.md:fixed-1024-32:14327-17325,1.0,1.0,1.0
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense 1024,10,296.5860010590404,1.0,api_spec_sample.md:fixed-1024-32:14327-17325,1.0,1.0,1.0
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense structural,3,296.561875147745,1.0,api_spec_sample.md:structural:15387-17764,1.0,1.0,1.0
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense structural,5,296.561875147745,1.0,api_spec_sample.md:structural:15387-17764,1.0,1.0,1.0
+Q11,How can I find the positions of all entries that are not zero?,conceptual,Dense structural,10,296.561875147745,1.0,api_spec_sample.md:structural:15387-17764,1.0,1.0,1.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,BM25 baseline,3,0.3325419966131449,,api_spec_sample.md:structural:3376-5348,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,BM25 baseline,5,0.3325419966131449,5.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.2
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,BM25 baseline,10,0.3325419966131449,5.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.2
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 256,3,278.5940410103649,,api_spec_sample.md:fixed-256-32:22595-23278,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 256,5,278.5940410103649,,api_spec_sample.md:fixed-256-32:22595-23278,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 256,10,278.5940410103649,,api_spec_sample.md:fixed-256-32:22595-23278,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 1024,3,278.3550831954926,,api_spec_sample.md:fixed-1024-32:31672-35090,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 1024,5,278.3550831954926,,api_spec_sample.md:fixed-1024-32:31672-35090,0.0,0.0,0.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense 1024,10,278.3550831954926,7.0,api_spec_sample.md:fixed-1024-32:31672-35090,1.0,1.0,0.14285714285714285
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense structural,3,278.34237506613135,1.0,api_spec_sample.md:structural:20130-23554,1.0,1.0,1.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense structural,5,278.34237506613135,1.0,api_spec_sample.md:structural:20130-23554,1.0,1.0,1.0
+Q12,How can I obtain an ordering permutation without rearranging the actual data?,conceptual,Dense structural,10,278.34237506613135,1.0,api_spec_sample.md:structural:20130-23554,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,BM25 baseline,3,0.21500000730156898,,api_spec_sample.md:structural:48616-61252,0.0,0.0,0.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,BM25 baseline,5,0.21500000730156898,,api_spec_sample.md:structural:48616-61252,0.0,0.0,0.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,BM25 baseline,10,0.21500000730156898,,api_spec_sample.md:structural:48616-61252,0.0,0.0,0.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 256,3,171.6657499782741,,api_spec_sample.md:fixed-256-32:37089-38077,0.0,0.0,0.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 256,5,171.6657499782741,4.0,api_spec_sample.md:fixed-256-32:37089-38077,1.0,1.0,0.25
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 256,10,171.6657499782741,4.0,api_spec_sample.md:fixed-256-32:37089-38077,1.0,1.0,0.25
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 1024,3,171.37220781296492,1.0,api_spec_sample.md:fixed-1024-32:34962-38638,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 1024,5,171.37220781296492,1.0,api_spec_sample.md:fixed-1024-32:34962-38638,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense 1024,10,171.37220781296492,1.0,api_spec_sample.md:fixed-1024-32:34962-38638,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense structural,3,171.3646249845624,1.0,api_spec_sample.md:structural:36917-39082,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense structural,5,171.3646249845624,1.0,api_spec_sample.md:structural:36917-39082,1.0,1.0,1.0
+Q13,I need to clamp outliers to an upper and lower bound.,conceptual,Dense structural,10,171.3646249845624,1.0,api_spec_sample.md:structural:36917-39082,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,BM25 baseline,3,0.2605421468615532,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,BM25 baseline,5,0.2605421468615532,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,BM25 baseline,10,0.2605421468615532,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 256,3,174.0145420189947,,api_spec_sample.md:fixed-256-32:67059-67786,0.0,0.0,0.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 256,5,174.0145420189947,5.0,api_spec_sample.md:fixed-256-32:67059-67786,1.0,1.0,0.2
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 256,10,174.0145420189947,5.0,api_spec_sample.md:fixed-256-32:67059-67786,1.0,1.0,0.2
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 1024,3,173.69379196316004,2.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,0.5
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 1024,5,173.69379196316004,2.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,0.5
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense 1024,10,173.69379196316004,2.0,api_spec_sample.md:fixed-1024-32:65422-69051,1.0,1.0,0.5
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense structural,3,173.6828749999404,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense structural,5,173.6828749999404,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q14,How do I sample uniformly spaced points between two endpoints?,conceptual,Dense structural,10,173.6828749999404,1.0,api_spec_sample.md:structural:64931-68134,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,BM25 baseline,3,0.40066614747047424,2.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,BM25 baseline,5,0.40066614747047424,2.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,BM25 baseline,10,0.40066614747047424,2.0,api_spec_sample.md:structural:80019-84460,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 256,3,153.0844159424305,1.0,api_spec_sample.md:fixed-256-32:83905-84617,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 256,5,153.0844159424305,1.0,api_spec_sample.md:fixed-256-32:83905-84617,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 256,10,153.0844159424305,1.0,api_spec_sample.md:fixed-256-32:83905-84617,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 1024,3,152.77016605250537,2.0,api_spec_sample.md:fixed-1024-32:90021-90907,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 1024,5,152.77016605250537,2.0,api_spec_sample.md:fixed-1024-32:90021-90907,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense 1024,10,152.77016605250537,2.0,api_spec_sample.md:fixed-1024-32:90021-90907,1.0,1.0,0.5
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense structural,3,152.76287402957678,1.0,api_spec_sample.md:structural:84460-90907,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense structural,5,152.76287402957678,1.0,api_spec_sample.md:structural:84460-90907,1.0,1.0,1.0
+Q15,How do I access only a small portion of an enormous file instead of using all my RAM?,conceptual,Dense structural,10,152.76287402957678,1.0,api_spec_sample.md:structural:84460-90907,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,BM25 baseline,3,0.22304197773337364,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,BM25 baseline,5,0.22304197773337364,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,BM25 baseline,10,0.22304197773337364,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 256,3,153.43095920979977,3.0,api_spec_sample.md:fixed-256-32:76504-77163,1.0,1.0,0.3333333333333333
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 256,5,153.43095920979977,3.0,api_spec_sample.md:fixed-256-32:76504-77163,1.0,1.0,0.3333333333333333
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 256,10,153.43095920979977,3.0,api_spec_sample.md:fixed-256-32:76504-77163,1.0,1.0,0.3333333333333333
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 1024,3,153.16795813851058,1.0,api_spec_sample.md:fixed-1024-32:68930-72218,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 1024,5,153.16795813851058,1.0,api_spec_sample.md:fixed-1024-32:68930-72218,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense 1024,10,153.16795813851058,1.0,api_spec_sample.md:fixed-1024-32:68930-72218,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense structural,3,153.15637621097267,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense structural,5,153.15637621097267,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q16,Which operation finds unknown variables from simultaneous equations?,conceptual,Dense structural,10,153.15637621097267,1.0,api_spec_sample.md:structural:70849-72696,1.0,1.0,1.0
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,BM25 baseline,3,0.2966660540550947,3.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.3333333333333333
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,BM25 baseline,5,0.2966660540550947,3.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.3333333333333333
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,BM25 baseline,10,0.2966660540550947,3.0,api_spec_sample.md:structural:3376-5348,1.0,1.0,0.3333333333333333
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 256,3,360.1554159540683,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 256,5,360.1554159540683,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 256,10,360.1554159540683,2.0,api_spec_sample.md:fixed-256-32:70086-70708,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 1024,3,359.9644161295146,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 1024,5,359.9644161295146,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense 1024,10,359.9644161295146,2.0,api_spec_sample.md:fixed-1024-32:45631-49306,1.0,1.0,0.5
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense structural,3,359.9466241430491,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense structural,5,359.9466241430491,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q17,How can I compare numerical results when tiny rounding discrepancies are acceptable?,conceptual,Dense structural,10,359.9466241430491,1.0,api_spec_sample.md:structural:68134-70849,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,BM25 baseline,3,0.12458302080631256,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,BM25 baseline,5,0.12458302080631256,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,BM25 baseline,10,0.12458302080631256,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 256,3,176.2916250154376,,api_spec_sample.md:fixed-256-32:45922-47011,0.0,0.0,0.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 256,5,176.2916250154376,4.0,api_spec_sample.md:fixed-256-32:45922-47011,1.0,0.5,0.25
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 256,10,176.2916250154376,4.0,api_spec_sample.md:fixed-256-32:45922-47011,1.0,1.0,0.25
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 1024,3,175.94166682101786,1.0,api_spec_sample.md:fixed-1024-32:41813-45711,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 1024,5,175.94166682101786,1.0,api_spec_sample.md:fixed-1024-32:41813-45711,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense 1024,10,175.94166682101786,1.0,api_spec_sample.md:fixed-1024-32:41813-45711,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense structural,3,175.93479109928012,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense structural,5,175.93479109928012,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
+Q18,I need the central arithmetic average and a measure of how dispersed observations are.,conceptual,Dense structural,10,175.93479109928012,1.0,api_spec_sample.md:structural:39082-42500,1.0,1.0,1.0
